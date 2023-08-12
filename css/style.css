@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container{
+width: 100%; 
+min-height:100vh; 
+border:10px 
+solid red;
+}
+
+.blogs-section{ 
+width: 80%;
+margin: 8px auto;
+border: 5px solid blue;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    margin:10px auto;
+    border:3px solid green;
+
+}
+.heading h1{
+    color:rgb(22,22,151);
+    font-size:40px;
+}
+.heading h4{
+    color:rgba(12, 232, 232, 0.333);
+    font-size:18px;
+}
+.blogs .card{
+    height:400px;
+    width:300px;
+    margin:30px 15px;
+    /*border:1px solid bisque;*/
+    box-shadow: 2px 10px 2px 2px rgba(244, 7, 34, 0.187);
+}
+.card img{
+    width:inherit;
+    height:200px;
+}
+.card .tagline{
+    font-size: 18px;
+    color:rgba(255, 0, 85, 0.274);
+    font-weight: 300;
+    margin:5px 10px;
+}
+.card .tagline span{
+    color:rgba(205, 121, 11, 0.817);
+}
+.card .title{
+    color:brown;
+    font-weight: 800;
+    font-size: 20px;
+    margin:5px 10px;
+}
+.card .content{
+    font-size: 15px;
+    margin: 5px 10px;
+    color: darkgoldenrod;
+    line-height: 1.6;
+}
+.card a{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: rgba(54, 23, 228, 0.886);
+    color: rgba(141, 141, 30, 0.473);
+    border-radius: 10px;
+    font-size: 14px;
+}
+.card a:hover{
+    background-color: rgba(66, 42, 32, 0.525);
+
+}
